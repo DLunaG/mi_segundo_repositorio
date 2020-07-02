@@ -13,7 +13,7 @@ public class Factorial {
 
             while(contador<=valor){
                 resultado = resultado * contador;
-                contador++;
+                contador++; //contador = contador + 1;
             }
 
             System.out.println("El factorial de "+valor+" es: "+resultado);
